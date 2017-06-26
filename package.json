@@ -7,7 +7,7 @@
   "jsnext:main": "dist/preact-redux.esm.js",
   "src:main": "src/index.js",
   "minified:main": "dist/preact-redux.min.js",
-  "typings": "./index.d.ts",
+  "typings": "src/index.d.ts",
   "scripts": {
     "clean": "rimraf dist/",
     "build": "npm-run-all clean transpile:* minify size",
